@@ -44,3 +44,23 @@
 // Navigation
 // ***********************************
 @import "navigation";
+
+#sound-board {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 1000px;
+    height: 1000px;
+}
+
+.sound-button {
+    width: 50%;
+    height: 10%;
+    font-size: 100%;
+    border: 1px solid white; 
+    border-radius: 5px;
+}
+
+.sound-button :hover {
+    background-color: darkgrey;
+}
